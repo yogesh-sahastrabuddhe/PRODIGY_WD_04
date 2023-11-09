@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Potfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ef5f735fc1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Potfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Frontend Developer</p>
+            <h1>Hi, I'm <span>Yogesh </span> <br>Sahastrabuddhe from Mumbai</h1>
+        </div>
+    </div>    
+</div>
+
+<!-------------------------------about-------------------------------------------------->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="Sub-title">About Me</h1>
+                <p>Add Content Here        
+
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, officiis illum. Dicta dignissimos beatae eligendi nesciunt, incidunt necessitatibus error explicabo repellendus, rem quibusdam hic id, libero assumenda veniam voluptate similique!
+                </p> 
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Frontend Developer </span><br>Designing web/App interfaces</li>
+                        <li><span>python Developer </span><br>Creating , Designing  and Delivering  Computer appliation </li>
+                        <li><span> Photographer </span><br> Product , Portrait , Cinemetography </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023 - Current </span><br>Intern at Prodigy infotech</li>
+                        <li><span>2022 - 2023 </span><br>Graphic designer at Woobbler Technologies</li>
+                        <li><span>2021 - 2022 </span><br>Google Student Developer Club (GDSC) Creative Co - Head </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span> 2021 - Now </span><br> B.E  in CSE (Ai&Ml) from  Mumbai University </li>
+                        <li><span> 2019 </span><br> Bajaj Collage of Science , Wardha </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----------------------------------------------------     Services    ------------------------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="Sub-title"> My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam maiores saepe, temporibus soluta, praesentium consequatur ad possimus quasi hic dignissimos assumenda! Asperiores ad veniam est facere. Ratione illum voluptas quos. 
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-camera"></i>
+                <h2>Photography </h2>
+                <p>
+                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum neque vel omnis dolorum hic ipsa quaerat iusto provident rerum expedita cum, odio quae delectus blanditiis numquam explicabo vitae magni porro?
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------------------------------------------------------     Potfolio    ------------------------------------------------------------->
+<div id="potfolio">
+     <div class="container">
+        <h1 class="Sub-title"> My Work </h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the world Download it from play store </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you to the talented people around the world Download it from play store </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you to the talented people around the world Download it from play store </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+     </div>
+</div>
+<!-----------------------------------------------------------------    Contact us    ------------------------------------------------------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="Sub-title">Contact Me</h1>
+                <p>yashvardhansahu1997@gmail.com</p>
+                <p>0123456789</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin" style="color: #16366f;"></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form action="">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="E-mail"  placeholder="Your E-mail" required>
+                    <textarea name="Message" rows="6" placeholder="Your Massage"></textarea>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+</body>
+</html>
